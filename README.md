@@ -1,4 +1,4 @@
-# LocalSolve AI: Hybrid Local & Cloud Study Assistant
+# GhostSolve: Hybrid Local & Cloud Study Assistant
 
 Tarayıcı üzerindeki metinleri, testleri ve çalışma sorularını doğrudan yerel (çevrimdışı) veya bulut tabanlı yapay zeka modelleriyle analiz eden, gizlilik odaklı bir Chrome uzantısı (Manifest V3).
 
@@ -35,19 +35,19 @@ Verilerinizi üçüncü taraf sunuculara göndermeden kendi donanımınızda (Ol
 
 ## Kurulum
 
-1. Bu depoyu indirin (ZIP) veya klonlayın:
+1. Depoyu klonlayın veya ZIP olarak indirin:
    ```bash
-   git clone [https://github.com/KULLANICI_ADINIZ/LocalSolve-AI.git](https://github.com/KULLANICI_ADINIZ/LocalSolve-AI.git)
+   git clone [https://github.com/omer-X-kiyak/GhostSolve.git](https://github.com/omer-X-kiyak/GhostSolve.git)
 Google Chrome'u açın ve adres çubuğuna chrome://extensions/ yazın.
 
 Sağ üst köşedeki Geliştirici Modu (Developer Mode) anahtarını etkinleştirin.
 
 Sol üstte beliren Paketlenmemiş öge yükle (Load unpacked) butonuna tıklayın.
 
-İndirdiğiniz veya klonladığınız proje klasörünü seçin.
+İndirdiğiniz veya klonladığınız GhostSolve klasörünü seçin.
 
 Kullanım
-Tarayıcı araç çubuğundaki LocalSolve AI simgesine tıklayın.
+Tarayıcı araç çubuğundaki GhostSolve simgesine tıklayın.
 
 Bilgisayarınızda Ollama/LM Studio açıksa model otomatik seçilecektir; çalışma modunuzu belirleyip Ayarları Kaydet butonuna basın.
 
