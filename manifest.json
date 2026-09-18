@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "AI Hibrit Soru Çözücü",
+  "version": "2.0",
+  "description": "Yerel açık kaynak (Ollama/LM Studio) ve bulut AI modelleriyle sayfadaki soruları anında çözer.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AI Soru Çözücü Ayarları"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}
